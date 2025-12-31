@@ -46,20 +46,6 @@ int main()
     system().studentSchedule("S001");
 
     system().studentSchedule("S003");
-
-/*
- * // 新增：设置成绩
-    system().setGrade("S001", "CS101", 95.5);
-    system().setGrade("S001", "CS201", 88.0);
-    system().setGrade("S002", "CS101", 79.0);
-
-    // 新增：查询/打印成绩
-    system().printGrade("S001", "CS101");
-    system().printAllGrades();
-
-    system().courseRoster("CS101");
-    system().courseRoster("CS201");
-    // ... 原有代码不变 ...
-    */
+//
     return 0;
 }
